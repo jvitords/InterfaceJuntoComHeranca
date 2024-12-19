@@ -1,0 +1,20 @@
+package application;
+
+import model.entities.Circulo;
+import model.entities.Retagulo;
+import model.enums.Color;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		System.out.println("OOOi");
+		
+		Retagulo retagulo = new Retagulo(Color.Preto, 20.0, 10.0);
+		Circulo circulo = new Circulo(Color.Branco, 7.5);
+		
+		System.out.println(retagulo.getCor() + ", " + retagulo.getAltura() +  ", " + retagulo.getLargura());
+		System.out.println(circulo.area() + ", " + circulo.getCor());
+		 
+	}
+}

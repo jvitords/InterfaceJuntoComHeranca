@@ -1,0 +1,24 @@
+package model.entities;
+
+import model.enums.Color;
+
+public abstract class Formas {
+	
+	private Color cor;
+
+	public Formas(Color cor) {
+		this.cor = cor;
+	}
+
+	public Formas() {
+	}
+
+	public Color getCor() {
+		return cor;
+	}
+
+	public void setCor(Color cor) {
+		this.cor = cor;
+	}
+	
+}

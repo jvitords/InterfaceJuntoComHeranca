@@ -1,0 +1,8 @@
+package model.entities;
+
+public class Circulo {
+
+	private Double raio;
+	
+	
+}
